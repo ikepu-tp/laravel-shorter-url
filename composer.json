@@ -1,0 +1,39 @@
+{
+  "name": "ikepu-tp/laravel-shorter-url",
+  "description": "To shorten URLs and manage the URLs and access",
+  "type": "library",
+  "keywords": [
+    "laravel",
+    "short",
+    "url"
+  ],
+  "homepage": "https://rainbow-patissier.com",
+  "support": {
+    "issues": "https://github.com/ikepu-tp/shorter-url/issues",
+    "source": "https://github.com/ikepu-tp/shorter-url"
+  },
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^10.8",
+    "jenssegers/agent": "^2.6"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "ikepu_tp\\ShorterUrl\\": "./src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Yuma Ikeda",
+      "email": "programing@rainbow-patissier.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ikepu_tp\\ShorterUrl\\ShorterUrlServiceProvider"
+      ]
+    }
+  }
+}
