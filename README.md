@@ -10,4 +10,4 @@ Thank you for your contributions. If you find bugs, let me know them with issues
 
 Copyright (c) 2023 Yuma Ikeda.
 
-The Shorter URL is open-sourced software licensed under the [MIT license](LICENSE).
+This is open-sourced software licensed under the [MIT license](LICENSE).
